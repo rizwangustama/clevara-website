@@ -1,0 +1,191 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+  }
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+header .menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu-wrapper .logo {
+  height: 79px;
+  padding: 15px 0;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+header nav .nav-wrapper {
+  display: flex;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav a:hover {
+  color: orange;
+}
+
+.hero {
+  padding: 30px 0;
+  background: #a9da56;
+  color: #FFF;
+  height: 250px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.hero h1 + p {
+  font-size: 24px;
+}
+
+.hero > .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.toggle-menu {
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+
+.toggle-menu span {
+  width: 100%;
+  height: 4px;
+  transition: all 0.3s;
+  background-color: transparent;
+  position: relative;
+  display: block;
+}
+
+.toggle-menu span:before,
+.toggle-menu span:after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transition: all 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+
+.toggle-menu span:before {
+  width: 70%;
+}
+
+.toggle-menu span:after {
+  top: 18px;
+}
+
+.toggle-menu.active span:before {
+  transform: rotate(45deg) translate(9px, 4px);
+  width: 100%;
+}
+
+.toggle-menu.active span:after {
+  transform: rotate(-45deg) translate(8px, -4px);
+}
+
+.desktop-none {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .toggle-menu {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+  }
+
+  .desktop-none {
+    display: block;
+  }
+
+  .mobile-none {
+    display: none;
+  }
+
+  header nav .nav-wrapper {
+    display: block;
+  }
+
+  #primary-menu .logo {
+    padding-left: 15px;
+  }
+
+  #primary-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 40px);
+    max-width: 300px;
+    padding: 20px;
+    background: black;
+    height: 100vh;
+    right: -100%;
+    transition: all 0.3s ease-in;
+  }
+
+  #primary-menu.active {
+    right: 0;
+  }
+
+  #primary-menu ul {
+    display: block;
+  }
+
+  #primary-menu ul li a {
+    display: block;
+    padding: 20px 15px;
+    color: #FFF;
+  }
+
+  #primary-menu ul li a:hover {
+    color: orange;
+  }
+}/*# sourceMappingURL=header.css.map */
