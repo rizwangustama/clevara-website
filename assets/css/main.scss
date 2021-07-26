@@ -262,10 +262,10 @@
       }
       .about-right {
         .right-wrapper {
-          width: 540px;
+          max-width: 540px;
           .about-top {
             img {
-              width: 540px;
+              max-width: 540px;
             }
           }
           .content {
@@ -307,7 +307,10 @@
   .quotes-wrapper {
       display: flex;
     .logo-quotes {
-      img {}
+      width: auto;
+      img {
+        max-width: 361px;
+      }
     }
     .quotes-content {
       display: flex;
@@ -316,6 +319,72 @@
         font-family: 'Montserrat';
         color: white;
         font-size: 48px;
+        line-height: 72px;
+      }
+    }
+  }
+}
+
+
+#our-work {
+  padding: 119px 0;
+  background-color: #1F1F1F;
+  .container {
+    .title {
+      h1 {
+        color: white;
+        font-size: 40px;
+        font-family: 'Montserrat';
+      }
+      p {
+        color: #DCBF01;
+        span {
+
+        }
+      }
+    }
+    .grid{
+      display: grid;
+      margin-top: 53px;
+      column-gap: 30px;
+      grid-template-columns: 1fr 1fr 1fr;
+      .card-gambar {
+        img {
+          width: 100%;
+        }
+        p {
+          color: white;
+          font-family: 'Montserrat';
+          font-size: 24px;
+          margin-top: 36px;
+        }
+      }
+      .dua {
+        margin-top: 100px;
+      }
+    }
+  }
+}
+
+#appro {
+  background-color: black;
+  .container {
+    .row {
+      .col {
+        display: flex;
+        align-items: center;
+        h1 {
+          font-size: 40px;
+          color: white;
+        }
+        span {
+          width: 100px;
+          height: 2px;
+          background-color: #DCBF01;
+        }
+        p {
+          color: white;
+        }
       }
     }
   }
