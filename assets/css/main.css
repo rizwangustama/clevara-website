@@ -368,7 +368,8 @@
 }
 
 #clien {
-  background-color: black;
+  background-color: #1F1F1F;
+  padding: 225px 0;
 }
 #clien .container-fluid .d-flex {
   justify-content: space-between;
