@@ -328,21 +328,129 @@
 }
 
 #appro {
+  padding: 135px 0;
   background-color: black;
 }
-#appro .container .row .col {
+#appro .container .row {
+  max-width: 1300PX;
+  margin: 0 auto;
+}
+#appro .container .row .left .left-wrapper {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
-#appro .container .row .col h1 {
-  font-size: 40px;
+#appro .container .row .left .left-wrapper h1 {
   color: white;
+  margin-right: 100px;
 }
-#appro .container .row .col span {
-  width: 100px;
-  height: 2px;
+#appro .container .row .left .left-wrapper span {
   background-color: #DCBF01;
+  height: 2px;
+  width: 100px;
 }
-#appro .container .row .col p {
+#appro .container .row .col-6 p {
   color: white;
+  font-family: "Montserrat";
+  font-size: 15px;
+  line-height: 32px;
+}
+#appro .container .row .box-wrapper {
+  margin-top: 58px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 118px;
+  -moz-column-gap: 93px;
+       column-gap: 93px;
+}
+#appro .container .row .box-wrapper .box {
+  background-color: #343434;
+}
+
+#contact {
+  background: black;
+  padding: 100px 0;
+}
+#contact .container .contact-wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+#contact .container .contact-wrapper .title h1 {
+  color: white;
+  margin-bottom: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+}
+#contact .container .contact-wrapper .content p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 17px;
+  line-height: 32px;
+}
+#contact .container .contact-wrapper .row .col input {
+  background-color: transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid #969696;
+  margin-bottom: 25px;
+  width: 100%;
+}
+#contact .container .contact-wrapper .text-area {
+  width: 100%;
+}
+#contact .container .contact-wrapper .text-area form {
+  width: 100%;
+}
+#contact .container .contact-wrapper .text-area form #text-area {
+  width: 100%;
+  background-color: transparent;
+  color: #969696;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid #969696;
+}
+#contact .container .contact-wrapper .wrapper {
+  margin-top: 63px;
+  display: flex;
+  justify-content: center;
+}
+#contact .container .contact-wrapper .wrapper a {
+  color: #DCBF01;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  padding: 118px 0;
+}
+.footer .container .row {
+  align-content: flex-end;
+}
+.footer .container .row .foo-left h1 {
+  color: white;
+  font-family: "Montserrat";
+}
+.footer .container .row .foo-left p {
+  color: white;
+  font-family: "Montserrat";
+  line-height: 17px;
+}
+.footer .container .row .foo-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.footer .container .row .foo-right .right-wrapper .sosmed {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .container .row .foo-right .right-wrapper .sosmed .icon {
+  margin-right: 18px;
+  margin-bottom: 23px;
+}
+.footer .container .row .foo-right .right-wrapper .copyright p {
+  color: white;
+  font-family: "Montserrat";
 }/*# sourceMappingURL=main.css.map */
