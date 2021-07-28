@@ -411,6 +411,100 @@
   }
 }
 
+#clien {
+  background-color: black;
+  .container-fluid {
+    .d-flex {
+      justify-content: space-between;
+      .left{
+        justify-content: center;
+          align-items: center;
+          display: flex;
+          width: 545px;
+        .left-wrapper {
+          .title{
+            h1 {
+              color: white;
+              font-size: 40px;
+              font-family: 'Montserrat';
+            }
+          }
+          .content {
+            p {
+              color: white;
+              font-size: 16px;
+              font-family: 'Montserrat';
+            }
+          }
+          .action {
+            display: flex;
+            align-items: center;
+            .total {
+              margin-right: 48px;
+              p {
+                color: white;
+                font-size: 24px;
+                font-family: 'Montserrat';
+                span {
+                  font-size: 14px;
+                }
+              }
+            }
+            .arrow {
+              margin-right: 32px;
+              border: 1px solid white;
+              border-radius: 24px;
+              height: 48px;
+              img {
+                margin: 16px;
+              }
+            }
+          }
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        .center {
+          width: 350px;
+          height: 350px;
+          background: #252525;
+          display: flex;
+          align-items: center;
+          img {
+            width: 270px;
+            margin: 0 auto;
+          }
+        }
+        .box {
+          background: #252525;
+          height: 300px;
+          width: 300px;
+          margin-left: 30px;
+          overflow: hidden;
+          img {
+            // margin: 0 auto;
+            // height: 46px;
+            // width: 270px;
+          }
+        }
+        .box-right {
+          width: 150px;
+          height: 300px;
+          background: #252525;
+          display: flex;
+          align-items: center;
+          margin-left: 30px;
+          img {
+            width: 270px;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
 #contact {
   background: black;
   padding: 100px 0;
@@ -486,11 +580,13 @@
         h1 {
           color: white;
           font-family: 'Montserrat';
+          margin-bottom: 23px;
         }
         p {
           color: white;
           font-family: 'Montserrat';
           line-height: 17px;
+          margin-bottom: 23px;
         }
       }
       .foo-right {
