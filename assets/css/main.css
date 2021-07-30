@@ -58,7 +58,13 @@
   font-size: 14px;
 }
 #carosel .container .button .col {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-left: 46px;
+}
+#carosel .container .button .col .col-left {
+  display: flex;
 }
 #carosel .container .button .col .col-left .wrapper {
   border: 2px solid #fff;
@@ -72,6 +78,9 @@
 #carosel .container .button .col .col-left .wrapper:nth-child(1) {
   border: 2px solid #fff;
   opacity: 0.5;
+}
+#carosel .container .button .col .col-right {
+  display: flex;
 }
 #carosel .container .button .col .col-right img {
   height: 36px;
@@ -196,11 +205,14 @@
 #product .container .product-wrapper .product-right .content {
   margin-top: 48px;
 }
-#product .container .product-wrapper .product-right .content p {
+#product .container .product-wrapper .product-right .content .dekstop {
   color: white;
   font-family: "Montserrat";
   font-size: 17px;
   line-height: 32px;
+}
+#product .container .product-wrapper .product-right .content .mobile {
+  display: none;
 }
 #product .container .product-wrapper .product-right .content a {
   color: #DCBF01;
@@ -215,6 +227,9 @@
 #about-partner {
   background-color: #000000;
   padding: 100px 0;
+}
+#about-partner .container .row {
+  display: flex;
 }
 #about-partner .container .row .about-left {
   display: flex;
@@ -371,72 +386,73 @@
   background-color: #1F1F1F;
   padding: 225px 0;
 }
-#clien .container-fluid .d-flex {
+#clien .container-fluid .flex {
+  display: flex;
   justify-content: space-between;
 }
-#clien .container-fluid .d-flex .left {
+#clien .container-fluid .flex .left {
   justify-content: center;
   align-items: center;
   display: flex;
   width: 545px;
 }
-#clien .container-fluid .d-flex .left .left-wrapper .title h1 {
+#clien .container-fluid .flex .left .left-wrapper .title h1 {
   color: white;
   font-size: 40px;
   font-family: "Montserrat";
 }
-#clien .container-fluid .d-flex .left .left-wrapper .content p {
+#clien .container-fluid .flex .left .left-wrapper .content p {
   color: white;
   font-size: 16px;
   font-family: "Montserrat";
 }
-#clien .container-fluid .d-flex .left .left-wrapper .action {
+#clien .container-fluid .flex .left .left-wrapper .action {
   display: flex;
   align-items: center;
 }
-#clien .container-fluid .d-flex .left .left-wrapper .action .total {
+#clien .container-fluid .flex .left .left-wrapper .action .total {
   margin-right: 48px;
 }
-#clien .container-fluid .d-flex .left .left-wrapper .action .total p {
+#clien .container-fluid .flex .left .left-wrapper .action .total p {
   color: white;
   font-size: 24px;
   font-family: "Montserrat";
 }
-#clien .container-fluid .d-flex .left .left-wrapper .action .total p span {
+#clien .container-fluid .flex .left .left-wrapper .action .total p span {
   font-size: 14px;
 }
-#clien .container-fluid .d-flex .left .left-wrapper .action .arrow {
+#clien .container-fluid .flex .left .left-wrapper .action .arrow {
   margin-right: 32px;
   border: 1px solid white;
   border-radius: 24px;
   height: 48px;
 }
-#clien .container-fluid .d-flex .left .left-wrapper .action .arrow img {
+#clien .container-fluid .flex .left .left-wrapper .action .arrow img {
   margin: 16px;
 }
-#clien .container-fluid .d-flex .right {
+#clien .container-fluid .flex .right {
   display: flex;
   align-items: center;
 }
-#clien .container-fluid .d-flex .right .center {
+#clien .container-fluid .flex .right .center {
   width: 350px;
   height: 350px;
   background: #252525;
   display: flex;
   align-items: center;
 }
-#clien .container-fluid .d-flex .right .center img {
+#clien .container-fluid .flex .right .center img {
   width: 270px;
   margin: 0 auto;
 }
-#clien .container-fluid .d-flex .right .box {
+#clien .container-fluid .flex .right .box {
   background: #252525;
   height: 300px;
   width: 300px;
   margin-left: 30px;
   overflow: hidden;
 }
-#clien .container-fluid .d-flex .right .box-right {
+#clien .container-fluid .flex .right .box-right {
   width: 150px;
   height: 300px;
   background: #252525;
@@ -444,7 +460,7 @@
   align-items: center;
   margin-left: 30px;
 }
-#clien .container-fluid .d-flex .right .box-right img {
+#clien .container-fluid .flex .right .box-right img {
   width: 270px;
   margin: 0 auto;
 }
@@ -517,7 +533,7 @@
 }
 .footer .container .row .foo-left p {
   color: white;
-  font-family: "Montserrat";
+  font-family: "Maven Pro";
   line-height: 17px;
   margin-bottom: 23px;
 }

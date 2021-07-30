@@ -1,0 +1,367 @@
+@media screen and (max-width: 360px) {
+  #carosel {
+    height: 640px;
+  }
+  #carosel .container {
+    padding: 233px 40px;
+  }
+  #carosel .container .row {
+    padding: 0;
+    display: block;
+  }
+  #carosel .container .row .col-2 .left {
+    width: 100%;
+  }
+  #carosel .container .row .col-2 .left .left-wrapper {
+    margin-right: 25px;
+  }
+  #carosel .container .row .col-2 .left .left-wrapper span {
+    height: 2px;
+  }
+  #carosel .container .row .col-2 .left p {
+    font-size: 10px;
+  }
+  #carosel .container .row .col {
+    margin-top: 25px;
+  }
+  #carosel .container .row .col h1 {
+    font-size: 24px;
+    line-height: 40px;
+    font-family: "Montserrat";
+  }
+  #carosel .container .button {
+    display: flex;
+    align-items: center;
+    margin-top: 134px;
+  }
+  #carosel .container .button .left h3 {
+    font-size: 16px;
+  }
+  #carosel .container .button .left span {
+    font-size: 12px;
+  }
+  #carosel .container .button .col {
+    margin: 0;
+  }
+  #carosel .container .button .col .col-left .wrapper {
+    border: 1.5px solid #fff;
+    display: flex;
+  }
+  #carosel .container .button .col .col-left .wrapper img {
+    margin: 8px;
+    width: 8px;
+    height: 8px;
+  }
+  #carosel .container .button .col .col-left .wrapper:nth-child(1) {
+    border: 1.5px solid #fff;
+    opacity: 0.5;
+  }
+  #carosel .container .button .col .col-right {
+    display: none;
+  }
+
+  #team {
+    padding: 110px 0;
+  }
+  #team .container {
+    padding: 0 40px;
+  }
+  #team .container .team-wrapper .content-top {
+    font-size: 20px;
+  }
+  #team .container .team-wrapper p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  #team .container .team-wrapper .content-bottom {
+    margin-top: 45px;
+  }
+  #team .container .team-wrapper .content-bottom p {
+    font-size: 14px;
+    margin-left: 24px;
+  }
+
+  #product {
+    padding: 69px 0;
+  }
+  #product .container {
+    padding: 0 40px;
+  }
+  #product .container .title {
+    font-size: 24px;
+    text-align: left;
+    line-height: 29px;
+  }
+  #product .container .product-wrapper {
+    margin-top: 32px;
+  }
+  #product .container .product-wrapper .product-left {
+    margin-right: 0px;
+  }
+  #product .container .product-wrapper .product-left img {
+    height: 347px;
+  }
+  #product .container .product-wrapper .product-right .button-slide {
+    margin-top: 32px;
+  }
+  #product .container .product-wrapper .product-right .button-slide p {
+    font-size: 16px;
+    margin-right: 19px;
+  }
+  #product .container .product-wrapper .product-right .button-slide p span {
+    font-size: 12px;
+  }
+  #product .container .product-wrapper .product-right .button-slide button {
+    border: 1.5px solid #fff;
+    margin-right: 16px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+  }
+  #product .container .product-wrapper .product-right .button-slide button img {
+    width: 8px;
+    height: 8px;
+    margin: 8px;
+  }
+  #product .container .product-wrapper .product-right .title-content {
+    margin-top: 32px;
+  }
+  #product .container .product-wrapper .product-right .title-content h1 {
+    font-size: 20px;
+  }
+  #product .container .product-wrapper .product-right .title-content h1 br {
+    display: none;
+  }
+  #product .container .product-wrapper .product-right .content .dekstop {
+    display: none;
+  }
+  #product .container .product-wrapper .product-right .content .mobile {
+    display: flex;
+    margin-top: 29px;
+    color: white;
+    font-family: "Montserrat";
+  }
+  #product .container .product-wrapper .product-right .content a {
+    display: none;
+  }
+
+  #about-partner .container {
+    padding: 0 40px;
+  }
+  #about-partner .container .row {
+    display: block;
+  }
+  #about-partner .container .row .about-left {
+    margin-bottom: 56px;
+  }
+  #about-partner .container .row .about-left .about-wrapper .title {
+    margin: 0;
+    font-size: 24px;
+    text-align: left;
+  }
+  #about-partner .container .row .about-left .about-wrapper .title br {
+    display: none;
+  }
+  #about-partner .container .row .about-right .right-wrapper .about-top img {
+    width: 100%;
+  }
+  #about-partner .container .row .about-right .right-wrapper .content p {
+    font-size: 13px;
+    font-family: "Maven Pro";
+    line-height: 24px;
+    margin-top: 40px;
+  }
+  #about-partner .container .row .about-right .right-wrapper .logo {
+    margin-top: 40px;
+    grid-template-rows: 73px;
+    -moz-column-gap: 28px;
+         column-gap: 28px;
+  }
+  #about-partner .container .row .about-right .right-wrapper .logo .logo-wrapper {
+    padding: 0 10px;
+  }
+  #about-partner .container .row .about-right .right-wrapper .logo .logo-wrapper img {
+    max-width: 100%;
+  }
+
+  #quotes {
+    padding: 113px 0;
+  }
+  #quotes .container {
+    padding: 0 40px;
+  }
+  #quotes .container .quotes-wrapper .logo-quotes img {
+    width: 100%;
+  }
+  #quotes .container .quotes-wrapper .quotes-content h1 {
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    font-family: "Montserrat";
+  }
+
+  #our-work {
+    padding: 45px 0px;
+  }
+  #our-work .container {
+    padding: 0 40px;
+  }
+  #our-work .container .title h1 {
+    font-size: 24px;
+    font-family: "Montserrat";
+  }
+  #our-work .container .title p {
+    font-size: 11px;
+    color: #DCBF01;
+  }
+  #our-work .container .title p span {
+    margin-left: 8px;
+  }
+  #our-work .container .grid {
+    display: grid;
+    margin-bottom: 0;
+  }
+  #our-work .container .grid .card-gambar p {
+    font-size: 16px;
+    margin-top: 12px;
+  }
+
+  #appro {
+    padding: 74px 0;
+  }
+  #appro .container {
+    padding: 0 40px;
+  }
+  #appro .container .row {
+    display: block;
+  }
+  #appro .container .row .left {
+    width: 100%;
+    padding: 0;
+  }
+  #appro .container .row .left .left-wrapper {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  #appro .container .row .left .left-wrapper h1 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Montserrat";
+  }
+  #appro .container .row .col-6 {
+    margin-top: 43px;
+    padding: 0;
+  }
+  #appro .container .row .col-6 p {
+    font-family: "Maven pro";
+    font-size: 13px;
+    line-height: 24px;
+  }
+  #appro .container .row .col-6 .box-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 27px;
+         column-gap: 27px;
+    grid-template-rows: 73px;
+  }
+
+  #clien {
+    padding: 92px 0;
+  }
+  #clien .container-fluid {
+    padding: 0;
+  }
+  #clien .container-fluid .flex {
+    display: block;
+  }
+  #clien .container-fluid .flex .right {
+    width: 100%;
+    padding-left: 70px;
+  }
+  #clien .container-fluid .flex .right .center {
+    width: 234px;
+    height: 234px;
+    padding: 26px;
+  }
+  #clien .container-fluid .flex .right .center img {
+    width: 180px;
+  }
+  #clien .container-fluid .flex .right .box {
+    display: none;
+  }
+  #clien .container-fluid .flex .right .box-right {
+    height: 234px;
+    width: 100%;
+  }
+  #clien .container-fluid .flex .right .box-right img {
+    display: none;
+  }
+
+  #contact {
+    pading: 58px 0;
+  }
+  #contact .container {
+    padding: 0 40px;
+  }
+  #contact .container .contact-wrapper {
+    width: 100%;
+  }
+  #contact .container .contact-wrapper .title h1 {
+    font-size: 24px;
+    font-family: "Montserrat";
+  }
+  #contact .container .contact-wrapper .content p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    font-family: "Maven Pro";
+  }
+  #contact .container .contact-wrapper .row {
+    display: block;
+    font-family: "Maven Pro";
+    font-size: 13px;
+  }
+  #contact .container .contact-wrapper .wrapper {
+    margin-top: 42px;
+  }
+  #contact .container .contact-wrapper .wrapper a {
+    color: #DCBF01;
+    margin: 0;
+    font-family: "Maven Pro";
+    font-size: 10px;
+  }
+  #contact .container .contact-wrapper .wrapper a span {
+    height: 4px;
+    margin-left: 8px;
+  }
+
+  .footer {
+    padding: 42px 0;
+  }
+  .footer .container {
+    padding: 0px 40px;
+  }
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .foo-left h1 {
+    font-size: 20px;
+  }
+  .footer .container .row .foo-left p {
+    font-size: 13px;
+    font-family: "Maven Pro";
+    line-height: 15px;
+  }
+  .footer .container .row .foo-right {
+    width: 100%;
+    margin-top: 83px;
+    justify-content: flex-start;
+  }
+  .footer .container .row .foo-right .right-wrapper .sosmed {
+    justify-content: flex-start;
+  }
+  .footer .container .row .foo-right .right-wrapper .copyright p {
+    font-size: 13px;
+    font-family: "Maven Pro";
+  }
+}/*# sourceMappingURL=mobile1.css.map */

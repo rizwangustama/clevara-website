@@ -58,8 +58,12 @@
         }
       }
       .col {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin-left: 46px;
         .col-left {
+          display: flex;
           .wrapper {
             border: 2px solid #fff;
             border-radius: 100px;
@@ -76,6 +80,7 @@
           
         }
         .col-right {
+          display: flex;
           img {
             height: 36px;
           }
@@ -210,11 +215,14 @@
         }
         .content {
           margin-top: 48px;
-          p {
+          .dekstop {
             color: white;
             font-family: 'Montserrat';
             font-size: 17px;
             line-height: 32px;
+          }
+          .mobile{
+            display: none;
           }
           a {
             color: #DCBF01;
@@ -237,6 +245,7 @@
   padding: 100px 0;
   .container {
     .row {
+      display: flex;
       .about-left {
         display: flex;
         width: 495px;
@@ -415,7 +424,8 @@
   background-color: #1F1F1F;
   padding: 225px 0;
   .container-fluid {
-    .d-flex {
+    .flex {
+      display: flex;
       justify-content: space-between;
       .left{
         justify-content: center;
@@ -585,7 +595,7 @@
         }
         p {
           color: white;
-          font-family: 'Montserrat';
+          font-family: 'Maven Pro';
           line-height: 17px;
           margin-bottom: 23px;
         }

@@ -1,0 +1,108 @@
+
+@media screen and (max-width: 360px) {
+  
+}
+
+@media screen and (max-width: 1200px) {
+  #product .container .title {
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+  }
+  #product .container .product-wrapper .product-left {
+    width: 100%;
+  }
+  #product .container .product-wrapper .product-left img {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+  }
+
+  #product .container .product-wrapper .product-right menu {
+    display: none;
+  }
+
+  #about-partner .container .row {
+    display: block;
+  }
+
+  #about-partner .container .row .about-left {
+    width: 100%;
+  }
+
+  #about-partner .container .row .about-left .about-wrapper {
+    justify-content: center;
+  }
+
+  #about-partner .container .row .about-left .about-wrapper .title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  #about-partner .container .row .about-left .about-wrapper .title br {
+    display: none;
+  }
+  #about-partner .container .row .about-left .about-wrapper span {
+    display: none;
+  }
+
+  #about-partner .container .row .about-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  #clien .container-fluid .flex {
+    display: block;
+  }
+  #clien .container-fluid .flex .left {
+    width: 100%;
+  }
+  #clien .container-fluid .flex .left .left-wrapper .action {
+    display: none;
+  }
+  #clien .container-fluid .flex .right {
+    margin-top: 84px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  #about-partner .container .row .about-right {
+    max-width: 100%;
+  }
+
+  #about-partner .container .row .about-right .right-wrapper {
+    max-width: 100%;
+  }
+
+  #our-work .container .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-bottom: 36px;
+    row-gap: 36px;
+  }
+  #our-work .container .grid .card-gambar p {
+    text-align: center;
+  }
+  #our-work .container .grid .dua {
+    margin-top: 0px;
+  }
+
+  #appro .container .row {
+    display: block;
+  }
+  #appro .container .row .left .left-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+  #appro .container .row .left .left-wrapper h1{
+    text-align: center;
+  }
+  #appro .container .row .left .left-wrapper span{
+    display: none;
+  }
+  #appro .container .row .col-6 {
+    margin-top: 43px;
+    width: 100%;
+  }
+}
