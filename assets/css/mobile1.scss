@@ -27,6 +27,9 @@
             line-height: 40px;
             font-family: 'Montserrat';
           }
+          br {
+            display: none;
+          }
         }
       }
       .button {
@@ -97,16 +100,22 @@
         font-size: 24px;
         text-align: left;
         line-height: 29px;
+        margin: 0;
       }
       .product-wrapper {
         margin-top: 32px;
         .product-left {
+          width: 100%;
           margin-right: 0px;
           img {
+            width: 100%;
             height: 347px;
           }
         }
         .product-right {
+          menu {
+            display: none;
+          }
           .button-slide {
             margin-top: 32px;
             p {
@@ -158,6 +167,7 @@
     }
   }
   #about-partner {
+    padding: 67px 0;
     .container {
       padding: 0 40px;
       .row {
@@ -165,6 +175,7 @@
         .about-left {
           margin-bottom: 56px;
           .about-wrapper {
+            justify-content: flex-start;
             .title {
               margin: 0;
               font-size: 24px;
@@ -173,9 +184,13 @@
                 display: none;
               }
             }
+            span {
+              display: none;
+            }
           }
         }
         .about-right {
+          width: 100%;
           .right-wrapper {
             .about-top {
               img {
@@ -248,12 +263,21 @@
       }
       .grid {
         display: grid;
+        grid-template-columns: 1fr;
         margin-bottom: 0;
         .card-gambar {
+          margin-bottom: 36px;
           p {
+            text-align: center;
             font-size: 16px;
             margin-top: 12px;
           }
+        }
+        .card-gambar:nth-child(3){
+          margin-bottom: 0px;
+        }
+        .dua {
+          margin-top: 0px;
         }
       }
     }
@@ -272,14 +296,20 @@
             justify-content: flex-start;
             h1 {
               margin: 0;
+              text-align: center;
               font-size: 24px;
               font-family: 'Montserrat';
+            }
+            span {
+              display: none;
             }
           }
         }
         .col-6 {
           margin-top: 43px;
           padding: 0;
+          width: 100%;
+          margin-right: 0;
           p {
             font-family: 'Maven pro';
             font-size: 13px;
@@ -301,7 +331,23 @@
       padding: 0;
       .flex {
         display: block;
-        .left {}
+        .left {
+          .left-wrapper {
+            .title{
+              h1 {
+                font-size: 24px;
+              }
+            }
+            .content {
+              p {
+                font-size: 14px;
+              }
+            }
+            .action {
+              display: none;
+            }
+          }
+        }
         .right {
           width: 100%;
           padding-left: 70px;
@@ -328,7 +374,7 @@
     }
   }
   #contact {
-    pading: 58px 0;
+    padding: 58px 0;
     .container {
       padding: 0 40px;
       .contact-wrapper {
@@ -401,6 +447,750 @@
               }
             }
           }
+        }
+      }
+    }
+  }
+}
+
+// 425px
+@media screen and (max-width: 426px) {
+  #clien {
+    .container-fluid {
+      .flex {
+        .right {
+          .box {
+            display: none;
+          }
+        }
+      }
+
+    }
+  }
+
+  #contact {
+    .container {
+      .contact-wrapper {
+        .form {
+          .form-wrapper {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 781px) {
+  #carosel {
+    height: 640px;
+    .container {
+      padding: 233px 40px;
+      .row {
+        padding: 0;
+        display: block;
+        .col-2{
+          .left {
+            width: 100%;
+            .left-wrapper{
+              margin-right: 25px;
+              span {
+                height: 2px;
+              }
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+        .col {
+          margin-top: 25px;
+          h1 {
+            font-size: 24px;
+            line-height: 40px;
+            font-family: 'Montserrat';
+          }
+        }
+      }
+      .button {
+        display: flex;
+        align-items: center;
+        margin-top: 134px;
+        .left {
+          h3 {
+            font-size: 16px;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+        .col {
+          margin: 0;
+          .col-left{
+            .wrapper {
+              border: 1.5px solid #fff;
+              display: flex;
+              img {
+                margin: 8px;
+                width: 8px;
+                height: 8px;
+              }
+            }
+            .wrapper:nth-child(1) {
+            border: 1.5px solid #fff;
+            opacity: 0.5;
+          }
+          }
+          .col-right{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  #team {
+    padding: 110px 0;
+    .container {
+      padding: 0 40px;
+      .team-wrapper {
+        .content-top {
+          font-size: 20px;
+        }
+        p {
+          font-size: 24px;
+          line-height: 40px;
+        }
+        .content-bottom {
+          margin-top: 45px;
+          p {
+            font-size:14px;
+            margin-left: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  #product {
+    padding: 69px 0;
+    .container {
+      padding: 0 40px;
+      .title {
+        font-size: 24px;
+        text-align: left;
+        line-height: 29px;
+        margin: 0;
+      }
+      .product-wrapper {
+        margin-top: 32px;
+        .product-left {
+          width: 100%;
+          margin-right: 0px;
+          img {
+            width: 100%;
+          }
+        }
+        .product-right {
+          menu {
+            display: none;
+          }
+          .button-slide {
+            margin-top: 32px;
+            p {
+              font-size: 16px;
+              margin-right: 19px;
+              span {
+                font-size: 12px;
+              }
+            }
+            button {
+              border: 1.5px solid #fff;
+              margin-right: 16px;
+              height: 27px;
+              display: flex;
+              align-items: center;
+              img {
+
+                width: 8px;
+                height: 8px;
+                margin: 8px;
+              }
+            }
+          }
+          .title-content {
+            margin-top: 32px;
+            h1 {
+              font-size: 20px;
+              br {
+                display: none;
+              }
+            }
+          }
+          .content {
+            .dekstop {
+              display: none;
+            }
+            .mobile {
+              display: flex;
+              margin-top: 29px;
+              color: white;
+              font-family: 'Montserrat';
+            }
+            a {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  #about-partner {
+    padding: 67px 0;
+    .container {
+      padding: 0 40px;
+      .row {
+        display: block;
+        .about-left {
+          margin-bottom: 56px;
+          display: block;
+          width: 100%;
+          .about-wrapper {
+            justify-content: flex-start;
+            .title {
+              margin: 0;
+              font-size: 24px;
+              text-align: left;
+              br {
+                display: none;
+              }
+            }
+            span {
+              display: none;
+            }
+          }
+        }
+        .about-right {
+          width: 100%;
+          margin: 0px;
+          .right-wrapper {
+            width: 100%;
+            margin: 0px 0px;
+            .about-top {
+              width: 100%;
+              margin: 0px 0px;
+              img {
+              }
+            }
+            .content {
+              p {
+                font-size: 13px; 
+                font-family: 'Maven Pro';
+                line-height: 24px;
+                margin-top: 40px;
+              }
+            }
+            .logo {
+              margin-top: 40px;
+              grid-template-rows: 73px;
+              column-gap: 28px;
+              .logo-wrapper {
+                padding: 0 10px;
+                img {
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #quotes {
+    padding: 113px 0;
+    .container {
+      padding: 0 40px;
+      .quotes-wrapper {
+        .logo-quotes{
+          img {
+            width: 100%;
+          }
+        }
+        .quotes-content {
+          h1 {
+            font-size: 20px;
+            line-height: 32px;
+            text-align: center;
+            font-family: 'Montserrat';
+          }
+        }
+      }
+    }
+  }
+
+  #our-work {
+    padding: 45px 0px;
+    .container {
+      padding: 0 40px;
+      .title {
+        h1 {
+          font-size: 24px;
+          font-family: 'Montserrat';
+        }
+        p {
+          font-size: 11px;
+          color: #DCBF01;
+          span {
+            margin-left: 8px;
+          }
+        }
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 0;
+        .card-gambar {
+          margin-bottom: 36px;
+          p {
+            text-align: center;
+            font-size: 16px;
+            margin-top: 12px;
+          }
+        }
+        .card-gambar:nth-child(3){
+          margin-bottom: 0px;
+        }
+        .dua {
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+  #appro {
+    padding: 74px 0;
+    .container {
+      padding: 0 40px;
+      .row {
+        display: block;
+        .left {
+          width: 100%;
+          padding: 0;
+          .left-wrapper{
+            width: 100%;
+            justify-content: flex-start;
+            h1 {
+              margin: 0;
+              text-align: center;
+              font-size: 24px;
+              font-family: 'Montserrat';
+            }
+            span {
+              display: none;
+            }
+          }
+        }
+        .col-6 {
+          margin-top: 43px;
+          padding: 0;
+          width: 100%;
+          margin-right: 0;
+          p {
+            font-family: 'Maven pro';
+            font-size: 13px;
+            line-height: 24px;
+          }
+          .box-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 27px;
+            grid-template-rows: 73px;
+          }
+        }
+      }
+    }
+  }
+  #clien {
+    padding: 92px 0;
+    .container-fluid {
+      padding: 0;
+      .flex {
+        display: block;
+        .left {
+          .left-wrapper {
+            .title{
+              h1 {
+                font-size: 24px;
+              }
+            }
+            .content {
+              p {
+                font-size: 14px;
+              }
+            }
+            .action {
+              display: none;
+            }
+          }
+        }
+        .right {
+          width: 100%;
+          padding-left: 70px;
+          .center {
+            width: 300px;
+            // height: 234px;
+            padding: 26px;
+            img {
+              width: 180px;
+            }
+          }
+          .box{
+            
+          }
+          .box-right {
+            height: 234px;
+            width: 50px;
+            img {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  #contact {
+    padding: 58px 0;
+    .container {
+      padding: 0 40px;
+      .contact-wrapper {
+        width: 100%;
+        .title {
+          h1 {
+            font-size: 24px;
+            font-family: 'Montserrat';
+          }
+        }
+        
+        .content {
+          p {
+            font-size: 13px;
+            line-height: 24px;
+            margin-bottom: 30px;
+            font-family: 'Maven Pro';
+          }
+        }
+        .row {
+          display: flex;
+          font-family: 'Maven Pro';
+          font-size: 13px;
+        }
+        .wrapper {
+          margin-top: 42px;
+          a {
+            color: #DCBF01;
+            margin: 0;
+            font-family: 'Maven Pro';
+            font-size: 10px;
+            span {
+              height: 4px;
+              margin-left: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding: 42px 0;
+    .container {
+      padding: 0px 40px;
+      .row {
+        display: block;
+        .foo-left {
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 13px;
+            font-family: 'Maven Pro';
+            line-height: 15px;
+          }
+        }
+        .foo-right {
+          width: 100%;
+          margin-top: 83px;
+          justify-content: flex-start;
+          .right-wrapper {
+            .sosmed {
+              justify-content: flex-start;
+            }
+            .copyright {
+              p {
+                font-size: 13px;
+                font-family: 'Maven Pro';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #carosel {
+    .container {
+      .row {
+        display: block;
+      }
+    }
+  }
+  #product {
+    padding: 69px 0;
+    .container {
+      .title {
+        font-size: 24px;
+        text-align: left;
+        line-height: 29px;
+        margin: 0;
+      }
+      .product-wrapper {
+        margin-top: 32px;
+        .product-left {
+          width: 100%;
+          margin-right: 0px;
+          img {
+            width: 100%;
+          }
+        }
+        .product-right {
+          menu {
+            display: none;
+          }
+          .button-slide {
+            margin-top: 32px;
+            p {
+              font-size: 16px;
+              margin-right: 19px;
+              span {
+                font-size: 12px;
+              }
+            }
+            button {
+              border: 1.5px solid #fff;
+              margin-right: 16px;
+              height: 27px;
+              display: flex;
+              align-items: center;
+              img {
+
+                width: 8px;
+                height: 8px;
+                margin: 8px;
+              }
+            }
+          }
+          .title-content {
+            margin-top: 32px;
+            h1 {
+              font-size: 20px;
+              br {
+                display: none;
+              }
+            }
+          }
+          .content {
+            .dekstop {
+              display: none;
+            }
+            .mobile {
+              display: flex;
+              margin-top: 29px;
+              color: white;
+              font-family: 'Montserrat';
+            }
+            a {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  #about-partner {
+    padding: 67px 0;
+    .container {
+      .row {
+        display: block;
+        .about-left {
+          margin-bottom: 56px;
+          display: block;
+          width: 100%;
+          .about-wrapper {
+            justify-content: flex-start;
+            .title {
+              margin: 0;
+              font-size: 24px;
+              text-align: left;
+              br {
+                display: none;
+              }
+            }
+            span {
+              display: none;
+            }
+          }
+        }
+        .about-right {
+          width: 100%;
+          margin: 0px;
+          .right-wrapper {
+            width: 100%;
+            margin: 0px 0px;
+            .about-top {
+              width: 100%;
+              margin: 0px 0px;
+              img {
+              }
+            }
+            .content {
+              p {
+                font-size: 13px; 
+                font-family: 'Maven Pro';
+                line-height: 24px;
+                margin-top: 40px;
+              }
+            }
+            .logo {
+              margin-top: 40px;
+              grid-template-rows: 73px;
+              column-gap: 28px;
+              .logo-wrapper {
+                padding: 0 10px;
+                img {
+                  max-width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #appro {
+    padding: 74px 0;
+    .container {
+      .row {
+        display: block;
+        .left {
+          width: 100%;
+          padding: 0;
+          .left-wrapper{
+            width: 100%;
+            justify-content: flex-start;
+            h1 {
+              margin: 0;
+              text-align: center;
+              font-size: 24px;
+              font-family: 'Montserrat';
+            }
+            span {
+              display: none;
+            }
+          }
+        }
+        .col-6 {
+          margin-top: 43px;
+          padding: 0;
+          width: 100%;
+          margin-right: 0;
+          p {
+            font-family: 'Maven pro';
+            font-size: 13px;
+            line-height: 24px;
+          }
+          .box-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 27px;
+            grid-template-rows: 73px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 1152px) {
+  #product {
+    .container {
+      .product-wrapper {
+        .product-left {
+          margin-right: 10px;
+        }
+        .product-right {
+          width: 100px;
+          menu {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #about-partner {
+    .container {
+      .row {
+        .about-left {
+          width: 400px;
+          align-items: flex-start;
+          .about-wrapper {
+            
+          }
+        }
+        .about-right {
+          width: auto;
+          .right-wrapper {
+            .about-top{
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #appro {
+    .container {
+      .row {
+        .col-6 {
+          .box-wrapper {
+            column-gap: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1150px) {
+  #clien {
+    .container-fluid{
+      .flex {
+        display: block;
+        .left {
+          width: 100%;
+        }
+        .right {
+          margin-top: 84px;
+          width: 100%;
+          justify-content: flex-end;
         }
       }
     }

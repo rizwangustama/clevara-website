@@ -255,10 +255,10 @@
   background-color: #DCBF01;
 }
 #about-partner .container .row .about-right .right-wrapper {
-  max-width: 540px;
+  width: 100%;
 }
 #about-partner .container .row .about-right .right-wrapper .about-top img {
-  max-width: 540px;
+  width: 100%;
 }
 #about-partner .container .row .about-right .right-wrapper .content p {
   font-size: 17px;
@@ -485,7 +485,13 @@
   font-size: 17px;
   line-height: 32px;
 }
-#contact .container .contact-wrapper .row .col input {
+#contact .container .contact-wrapper .form .form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+#contact .container .contact-wrapper .form .form-wrapper .col input {
   background-color: transparent;
   border-top: 1px solid transparent;
   border-left: 1px solid transparent;

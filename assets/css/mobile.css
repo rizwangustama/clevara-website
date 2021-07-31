@@ -2,7 +2,7 @@
 @media screen and (max-width: 360px) {
   
 }
-
+/* 
 @media screen and (max-width: 1200px) {
   #product .container .title {
     width: 100%;
@@ -64,8 +64,8 @@
     margin-top: 84px;
     justify-content: center;
   }
-}
-
+} */
+/* 
 @media screen and (max-width: 1152px) {
   #about-partner .container .row .about-right {
     max-width: 100%;
@@ -105,4 +105,10 @@
     margin-top: 43px;
     width: 100%;
   }
+} */
+
+
+
+
+@media screen and (min-width: 1152px) {
 }

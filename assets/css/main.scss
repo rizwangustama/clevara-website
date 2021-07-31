@@ -271,10 +271,10 @@
       }
       .about-right {
         .right-wrapper {
-          max-width: 540px;
+          width: 100%;
           .about-top {
             img {
-              max-width: 540px;
+              width: 100%;;
             }
           }
           .content {
@@ -539,17 +539,21 @@
           line-height: 32px;
         }
       }
-      .row {
-        .col{
-          
-          input {
-            background-color: transparent;
-            border-top: 1px solid transparent;
-            border-left: 1px solid transparent;
-            border-right: 1px solid transparent;
-            border-bottom: 1px solid #969696;
-            margin-bottom: 25px;
-            width: 100%;
+      .form {
+        .form-wrapper {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 15px;
+          .col{
+            input {
+              background-color: transparent;
+              border-top: 1px solid transparent;
+              border-left: 1px solid transparent;
+              border-right: 1px solid transparent;
+              border-bottom: 1px solid #969696;
+              margin-bottom: 25px;
+              width: 100%;
+            }
           }
         }
       }
