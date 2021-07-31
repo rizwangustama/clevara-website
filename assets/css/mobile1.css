@@ -120,14 +120,14 @@
   #product .container .product-wrapper .product-right .button-slide p span {
     font-size: 12px;
   }
-  #product .container .product-wrapper .product-right .button-slide button {
+  #product .container .product-wrapper .product-right .button-slide .one, #product .container .product-wrapper .product-right .button-slide .true {
     border: 1.5px solid #fff;
     margin-right: 16px;
     height: 27px;
     display: flex;
     align-items: center;
   }
-  #product .container .product-wrapper .product-right .button-slide button img {
+  #product .container .product-wrapper .product-right .button-slide .one img, #product .container .product-wrapper .product-right .button-slide .true img {
     width: 8px;
     height: 8px;
     margin: 8px;
@@ -233,7 +233,7 @@
   }
   #our-work .container .title p {
     font-size: 11px;
-    color: #DCBF01;
+    color: #dcbf01;
   }
   #our-work .container .title p span {
     margin-left: 8px;
@@ -372,7 +372,7 @@
     margin-top: 42px;
   }
   #contact .container .contact-wrapper .wrapper a {
-    color: #DCBF01;
+    color: #dcbf01;
     margin: 0;
     font-family: "Maven Pro";
     font-size: 10px;
@@ -539,14 +539,14 @@
   #product .container .product-wrapper .product-right .button-slide p span {
     font-size: 12px;
   }
-  #product .container .product-wrapper .product-right .button-slide button {
+  #product .container .product-wrapper .product-right .button-slide .one, #product .container .product-wrapper .product-right .button-slide .true {
     border: 1.5px solid #fff;
     margin-right: 16px;
     height: 27px;
     display: flex;
     align-items: center;
   }
-  #product .container .product-wrapper .product-right .button-slide button img {
+  #product .container .product-wrapper .product-right .button-slide .one img, #product .container .product-wrapper .product-right .button-slide .true img {
     width: 8px;
     height: 8px;
     margin: 8px;
@@ -660,7 +660,7 @@
   }
   #our-work .container .title p {
     font-size: 11px;
-    color: #DCBF01;
+    color: #dcbf01;
   }
   #our-work .container .title p span {
     margin-left: 8px;
@@ -795,7 +795,7 @@
     margin-top: 42px;
   }
   #contact .container .contact-wrapper .wrapper a {
-    color: #DCBF01;
+    color: #dcbf01;
     margin: 0;
     font-family: "Maven Pro";
     font-size: 10px;
@@ -835,9 +835,15 @@
     font-family: "Maven Pro";
   }
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 998px) {
   #carosel .container .row {
     display: block;
+  }
+  #carosel .container .row .col-2 .left .left-wrapper {
+    margin-right: 30px;
+  }
+  #carosel .container .button {
+    display: flex;
   }
 
   #product {
@@ -872,14 +878,14 @@
   #product .container .product-wrapper .product-right .button-slide p span {
     font-size: 12px;
   }
-  #product .container .product-wrapper .product-right .button-slide button {
+  #product .container .product-wrapper .product-right .button-slide .one, #product .container .product-wrapper .product-right .button-slide .true {
     border: 1.5px solid #fff;
     margin-right: 16px;
     height: 27px;
     display: flex;
     align-items: center;
   }
-  #product .container .product-wrapper .product-right .button-slide button img {
+  #product .container .product-wrapper .product-right .button-slide .one img, #product .container .product-wrapper .product-right .button-slide .true img {
     width: 8px;
     height: 8px;
     margin: 8px;

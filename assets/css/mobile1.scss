@@ -6,10 +6,10 @@
       .row {
         padding: 0;
         display: block;
-        .col-2{
+        .col-2 {
           .left {
             width: 100%;
-            .left-wrapper{
+            .left-wrapper {
               margin-right: 25px;
               span {
                 height: 2px;
@@ -25,7 +25,7 @@
           h1 {
             font-size: 24px;
             line-height: 40px;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
           }
           br {
             display: none;
@@ -46,7 +46,7 @@
         }
         .col {
           margin: 0;
-          .col-left{
+          .col-left {
             .wrapper {
               border: 1.5px solid #fff;
               display: flex;
@@ -57,11 +57,11 @@
               }
             }
             .wrapper:nth-child(1) {
-            border: 1.5px solid #fff;
-            opacity: 0.5;
+              border: 1.5px solid #fff;
+              opacity: 0.5;
+            }
           }
-          }
-          .col-right{
+          .col-right {
             display: none;
           }
         }
@@ -84,7 +84,7 @@
         .content-bottom {
           margin-top: 45px;
           p {
-            font-size:14px;
+            font-size: 14px;
             margin-left: 24px;
           }
         }
@@ -125,14 +125,13 @@
                 font-size: 12px;
               }
             }
-            button {
+            .one, .true {
               border: 1.5px solid #fff;
               margin-right: 16px;
               height: 27px;
               display: flex;
               align-items: center;
               img {
-
                 width: 8px;
                 height: 8px;
                 margin: 8px;
@@ -156,7 +155,7 @@
               display: flex;
               margin-top: 29px;
               color: white;
-              font-family: 'Montserrat';
+              font-family: "Montserrat";
             }
             a {
               display: none;
@@ -199,8 +198,8 @@
             }
             .content {
               p {
-                font-size: 13px; 
-                font-family: 'Maven Pro';
+                font-size: 13px;
+                font-family: "Maven Pro";
                 line-height: 24px;
                 margin-top: 40px;
               }
@@ -227,7 +226,7 @@
     .container {
       padding: 0 40px;
       .quotes-wrapper {
-        .logo-quotes{
+        .logo-quotes {
           img {
             width: 100%;
           }
@@ -237,7 +236,7 @@
             font-size: 20px;
             line-height: 32px;
             text-align: center;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
           }
         }
       }
@@ -251,11 +250,11 @@
       .title {
         h1 {
           font-size: 24px;
-          font-family: 'Montserrat';
+          font-family: "Montserrat";
         }
         p {
           font-size: 11px;
-          color: #DCBF01;
+          color: #dcbf01;
           span {
             margin-left: 8px;
           }
@@ -273,7 +272,7 @@
             margin-top: 12px;
           }
         }
-        .card-gambar:nth-child(3){
+        .card-gambar:nth-child(3) {
           margin-bottom: 0px;
         }
         .dua {
@@ -291,14 +290,14 @@
         .left {
           width: 100%;
           padding: 0;
-          .left-wrapper{
+          .left-wrapper {
             width: 100%;
             justify-content: flex-start;
             h1 {
               margin: 0;
               text-align: center;
               font-size: 24px;
-              font-family: 'Montserrat';
+              font-family: "Montserrat";
             }
             span {
               display: none;
@@ -311,7 +310,7 @@
           width: 100%;
           margin-right: 0;
           p {
-            font-family: 'Maven pro';
+            font-family: "Maven pro";
             font-size: 13px;
             line-height: 24px;
           }
@@ -333,7 +332,7 @@
         display: block;
         .left {
           .left-wrapper {
-            .title{
+            .title {
               h1 {
                 font-size: 24px;
               }
@@ -359,7 +358,7 @@
               width: 180px;
             }
           }
-          .box{
+          .box {
             display: none;
           }
           .box-right {
@@ -382,29 +381,29 @@
         .title {
           h1 {
             font-size: 24px;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
           }
         }
-        
+
         .content {
           p {
             font-size: 13px;
             line-height: 24px;
             margin-bottom: 30px;
-            font-family: 'Maven Pro';
+            font-family: "Maven Pro";
           }
         }
         .row {
           display: block;
-          font-family: 'Maven Pro';
+          font-family: "Maven Pro";
           font-size: 13px;
         }
         .wrapper {
           margin-top: 42px;
           a {
-            color: #DCBF01;
+            color: #dcbf01;
             margin: 0;
-            font-family: 'Maven Pro';
+            font-family: "Maven Pro";
             font-size: 10px;
             span {
               height: 4px;
@@ -428,7 +427,7 @@
           }
           p {
             font-size: 13px;
-            font-family: 'Maven Pro';
+            font-family: "Maven Pro";
             line-height: 15px;
           }
         }
@@ -443,7 +442,7 @@
             .copyright {
               p {
                 font-size: 13px;
-                font-family: 'Maven Pro';
+                font-family: "Maven Pro";
               }
             }
           }
@@ -464,7 +463,6 @@
           }
         }
       }
-
     }
   }
 
@@ -489,10 +487,10 @@
       .row {
         padding: 0;
         display: block;
-        .col-2{
+        .col-2 {
           .left {
             width: 100%;
-            .left-wrapper{
+            .left-wrapper {
               margin-right: 25px;
               span {
                 height: 2px;
@@ -508,7 +506,7 @@
           h1 {
             font-size: 24px;
             line-height: 40px;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
           }
         }
       }
@@ -526,7 +524,7 @@
         }
         .col {
           margin: 0;
-          .col-left{
+          .col-left {
             .wrapper {
               border: 1.5px solid #fff;
               display: flex;
@@ -537,11 +535,11 @@
               }
             }
             .wrapper:nth-child(1) {
-            border: 1.5px solid #fff;
-            opacity: 0.5;
+              border: 1.5px solid #fff;
+              opacity: 0.5;
+            }
           }
-          }
-          .col-right{
+          .col-right {
             display: none;
           }
         }
@@ -564,7 +562,7 @@
         .content-bottom {
           margin-top: 45px;
           p {
-            font-size:14px;
+            font-size: 14px;
             margin-left: 24px;
           }
         }
@@ -604,14 +602,13 @@
                 font-size: 12px;
               }
             }
-            button {
+            .one, .true {
               border: 1.5px solid #fff;
               margin-right: 16px;
               height: 27px;
               display: flex;
               align-items: center;
               img {
-
                 width: 8px;
                 height: 8px;
                 margin: 8px;
@@ -635,7 +632,7 @@
               display: flex;
               margin-top: 29px;
               color: white;
-              font-family: 'Montserrat';
+              font-family: "Montserrat";
             }
             a {
               display: none;
@@ -679,13 +676,11 @@
             .about-top {
               width: 100%;
               margin: 0px 0px;
-              img {
-              }
             }
             .content {
               p {
-                font-size: 13px; 
-                font-family: 'Maven Pro';
+                font-size: 13px;
+                font-family: "Maven Pro";
                 line-height: 24px;
                 margin-top: 40px;
               }
@@ -712,7 +707,7 @@
     .container {
       padding: 0 40px;
       .quotes-wrapper {
-        .logo-quotes{
+        .logo-quotes {
           img {
             width: 100%;
           }
@@ -722,7 +717,7 @@
             font-size: 20px;
             line-height: 32px;
             text-align: center;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
           }
         }
       }
@@ -736,11 +731,11 @@
       .title {
         h1 {
           font-size: 24px;
-          font-family: 'Montserrat';
+          font-family: "Montserrat";
         }
         p {
           font-size: 11px;
-          color: #DCBF01;
+          color: #dcbf01;
           span {
             margin-left: 8px;
           }
@@ -758,7 +753,7 @@
             margin-top: 12px;
           }
         }
-        .card-gambar:nth-child(3){
+        .card-gambar:nth-child(3) {
           margin-bottom: 0px;
         }
         .dua {
@@ -776,14 +771,14 @@
         .left {
           width: 100%;
           padding: 0;
-          .left-wrapper{
+          .left-wrapper {
             width: 100%;
             justify-content: flex-start;
             h1 {
               margin: 0;
               text-align: center;
               font-size: 24px;
-              font-family: 'Montserrat';
+              font-family: "Montserrat";
             }
             span {
               display: none;
@@ -796,7 +791,7 @@
           width: 100%;
           margin-right: 0;
           p {
-            font-family: 'Maven pro';
+            font-family: "Maven pro";
             font-size: 13px;
             line-height: 24px;
           }
@@ -818,7 +813,7 @@
         display: block;
         .left {
           .left-wrapper {
-            .title{
+            .title {
               h1 {
                 font-size: 24px;
               }
@@ -844,9 +839,6 @@
               width: 180px;
             }
           }
-          .box{
-            
-          }
           .box-right {
             height: 234px;
             width: 50px;
@@ -867,29 +859,29 @@
         .title {
           h1 {
             font-size: 24px;
-            font-family: 'Montserrat';
+            font-family: "Montserrat";
           }
         }
-        
+
         .content {
           p {
             font-size: 13px;
             line-height: 24px;
             margin-bottom: 30px;
-            font-family: 'Maven Pro';
+            font-family: "Maven Pro";
           }
         }
         .row {
           display: flex;
-          font-family: 'Maven Pro';
+          font-family: "Maven Pro";
           font-size: 13px;
         }
         .wrapper {
           margin-top: 42px;
           a {
-            color: #DCBF01;
+            color: #dcbf01;
             margin: 0;
-            font-family: 'Maven Pro';
+            font-family: "Maven Pro";
             font-size: 10px;
             span {
               height: 4px;
@@ -913,7 +905,7 @@
           }
           p {
             font-size: 13px;
-            font-family: 'Maven Pro';
+            font-family: "Maven Pro";
             line-height: 15px;
           }
         }
@@ -928,7 +920,7 @@
             .copyright {
               p {
                 font-size: 13px;
-                font-family: 'Maven Pro';
+                font-family: "Maven Pro";
               }
             }
           }
@@ -938,11 +930,21 @@
   }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 998px) {
   #carosel {
     .container {
       .row {
         display: block;
+        .col-2 {
+          .left {
+            .left-wrapper {
+              margin-right: 30px;
+            }
+          }
+        }
+      }
+      .button {
+        display: flex;
       }
     }
   }
@@ -977,14 +979,13 @@
                 font-size: 12px;
               }
             }
-            button {
+            .one, .true {
               border: 1.5px solid #fff;
               margin-right: 16px;
               height: 27px;
               display: flex;
               align-items: center;
               img {
-
                 width: 8px;
                 height: 8px;
                 margin: 8px;
@@ -1008,7 +1009,7 @@
               display: flex;
               margin-top: 29px;
               color: white;
-              font-family: 'Montserrat';
+              font-family: "Montserrat";
             }
             a {
               display: none;
@@ -1051,13 +1052,11 @@
             .about-top {
               width: 100%;
               margin: 0px 0px;
-              img {
-              }
             }
             .content {
               p {
-                font-size: 13px; 
-                font-family: 'Maven Pro';
+                font-size: 13px;
+                font-family: "Maven Pro";
                 line-height: 24px;
                 margin-top: 40px;
               }
@@ -1086,14 +1085,14 @@
         .left {
           width: 100%;
           padding: 0;
-          .left-wrapper{
+          .left-wrapper {
             width: 100%;
             justify-content: flex-start;
             h1 {
               margin: 0;
               text-align: center;
               font-size: 24px;
-              font-family: 'Montserrat';
+              font-family: "Montserrat";
             }
             span {
               display: none;
@@ -1106,7 +1105,7 @@
           width: 100%;
           margin-right: 0;
           p {
-            font-family: 'Maven pro';
+            font-family: "Maven pro";
             font-size: 13px;
             line-height: 24px;
           }
@@ -1121,7 +1120,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 1152px) {
   #product {
@@ -1146,14 +1144,11 @@
         .about-left {
           width: 400px;
           align-items: flex-start;
-          .about-wrapper {
-            
-          }
         }
         .about-right {
           width: auto;
           .right-wrapper {
-            .about-top{
+            .about-top {
               img {
                 width: 100%;
               }
@@ -1177,11 +1172,9 @@
   }
 }
 
-
-
 @media screen and (max-width: 1150px) {
   #clien {
-    .container-fluid{
+    .container-fluid {
       .flex {
         display: block;
         .left {

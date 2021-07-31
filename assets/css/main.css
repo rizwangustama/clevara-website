@@ -88,6 +88,7 @@
 #carosel .container .button .col .col-right p {
   color: white;
   font-size: 14px;
+  font-family: "Montserrat";
   margin-bottom: 0;
   margin-left: 19px;
 }
@@ -102,6 +103,7 @@
 }
 #team .container .team-wrapper .content-top {
   color: #DCBF01;
+  font-size: 48px;
   font-family: "Montserrat";
 }
 #team .container .team-wrapper p {
@@ -118,7 +120,7 @@
 #team .container .team-wrapper .content-bottom span {
   height: 2px;
   width: 65px;
-  background-color: orange;
+  background-color: #DCBF01;
 }
 #team .container .team-wrapper .content-bottom p {
   font-size: 20px;
@@ -180,21 +182,30 @@
   font-size: 12px;
   font-family: "Montserrat";
 }
-#product .container .product-wrapper .product-right .button-slide button {
+#product .container .product-wrapper .product-right .button-slide .one {
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1.5px solid white;
+  margin-right: 42px;
+  padding: 0;
+  opacity: 0.5;
+}
+#product .container .product-wrapper .product-right .button-slide .one img {
+  margin: 16px;
+  width: 16px;
+  height: 16px;
+}
+#product .container .product-wrapper .product-right .button-slide .true {
   background-color: transparent;
   border-radius: 100px;
   border: 1.5px solid white;
   margin-right: 42px;
   padding: 0;
 }
-#product .container .product-wrapper .product-right .button-slide button img {
+#product .container .product-wrapper .product-right .button-slide .true img {
   margin: 16px;
   width: 16px;
   height: 16px;
-}
-#product .container .product-wrapper .product-right .button-slide button:nth-child(1) {
-  opacity: 0.5;
-  margin-right: 42px;
 }
 #product .container .product-wrapper .product-right .title-content {
   margin-top: 48px;
@@ -207,17 +218,18 @@
 }
 #product .container .product-wrapper .product-right .content .dekstop {
   color: white;
-  font-family: "Montserrat";
+  font-family: "Maven Pro";
   font-size: 17px;
   line-height: 32px;
 }
 #product .container .product-wrapper .product-right .content .mobile {
+  font-family: "Maven Pro";
   display: none;
 }
 #product .container .product-wrapper .product-right .content a {
   color: #DCBF01;
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: "Maven Pro";
   font-size: 17px;
 }
 #product .container .product-wrapper .product-right .content a span {
@@ -321,6 +333,7 @@
 }
 #our-work .container .title p {
   color: #DCBF01;
+  font-family: "Maven Pro";
 }
 #our-work .container .grid {
   display: grid;
@@ -366,7 +379,7 @@
 }
 #appro .container .row .col-6 p {
   color: white;
-  font-family: "Montserrat";
+  font-family: "Maven Pro";
   font-size: 15px;
   line-height: 32px;
 }
@@ -481,7 +494,7 @@
 }
 #contact .container .contact-wrapper .content p {
   color: white;
-  font-family: "Montserrat";
+  font-family: "Maven Pro";
   font-size: 17px;
   line-height: 32px;
 }
@@ -492,6 +505,7 @@
        column-gap: 15px;
 }
 #contact .container .contact-wrapper .form .form-wrapper .col input {
+  font-family: "Maven Pro";
   background-color: transparent;
   border-top: 1px solid transparent;
   border-left: 1px solid transparent;
@@ -523,6 +537,7 @@
 #contact .container .contact-wrapper .wrapper a {
   color: #DCBF01;
   text-decoration: none;
+  font-family: "Poppins";
 }
 
 .footer {
@@ -539,7 +554,7 @@
 }
 .footer .container .row .foo-left p {
   color: white;
-  font-family: "Maven Pro";
+  font-family: "Montserrat";
   line-height: 17px;
   margin-bottom: 23px;
 }
