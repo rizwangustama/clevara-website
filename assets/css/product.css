@@ -34,6 +34,9 @@
   font-family: "Montserrat";
   margin-bottom: 40px;
 }
+#product .container .product-wrapper .right .none-desktop {
+  display: none;
+}
 #product .container .product-wrapper .right p {
   font-size: 24px;
   font-family: "Montserrat";
@@ -96,10 +99,9 @@
   grid-template-columns: 1fr 1fr;
   -moz-column-gap: 160px;
        column-gap: 160px;
-  row-gap: 300px;
 }
 #our-product .container .content .top {
-  margin-top: 250px;
+  margin-top: 300px;
 }
 #our-product .container .content .card {
   background: black;
@@ -116,7 +118,7 @@
 #our-product .container .content .card p {
   font-size: 17px;
   color: white;
-  font-family: "Montserrat";
+  font-family: "Maven Pro";
 }
 
 #subcribe {
@@ -153,6 +155,7 @@
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-bottom: 1px solid white;
+  font-family: "Maven Pro";
 }
 #subcribe .container .subcribe-wrapper form a {
   text-decoration: none;
@@ -160,6 +163,8 @@
   color: #dcbf01;
   margin-left: 59px;
   align-items: center;
+  font-family: "Poppins";
+  font-size: 16px;
 }
 #subcribe .container .subcribe-wrapper form a span {
   margin-left: 13px;
@@ -176,6 +181,7 @@
 .footer .container .row .foo-left h1 {
   color: white;
   font-family: "Montserrat";
+  font-size: 24px;
   margin-bottom: 23px;
 }
 .footer .container .row .foo-left p {
@@ -183,6 +189,7 @@
   font-family: "Montserrat";
   line-height: 17px;
   margin-bottom: 23px;
+  font-size: 14px;
 }
 .footer .container .row .foo-right {
   display: flex;
@@ -200,6 +207,7 @@
 .footer .container .row .foo-right .right-wrapper .copyright p {
   color: white;
   font-family: "Montserrat";
+  font-size: 14px;
 }
 
 @media screen and (max-width: 1152px) {
@@ -213,7 +221,7 @@
     grid-template-columns: 1fr 1fr;
     -moz-column-gap: 70px;
          column-gap: 70px;
-    row-gap: 300px;
+    row-gap: 0;
   }
   #our-product .container .content .top {
     margin-top: 250px;
@@ -234,5 +242,148 @@
     font-size: 17px;
     color: white;
     font-family: "Montserrat";
+  }
+}
+@media screen and (max-width: 768px) {
+  #product {
+    background-position: center;
+    padding: 200px 0px;
+  }
+  #product .container {
+    padding: 0px 40px;
+  }
+  #product .container .product-wrapper {
+    display: block;
+  }
+  #product .container .product-wrapper .left {
+    margin-bottom: 23px;
+  }
+
+  #our-product .container {
+    padding: 0px 40px;
+  }
+  #our-product .container .content {
+    grid-template-columns: 1fr;
+  }
+  #our-product .container .content .top {
+    margin-top: 0px;
+  }
+  #our-product .container .content .card {
+    margin-top: 128px;
+  }
+  #our-product .container .content .card:nth-child(1) {
+    margin-top: 0px;
+  }
+
+  #subcribe .container {
+    padding: 0px 40px;
+  }
+  #subcribe .container .subcribe-wrapper {
+    max-width: 100%;
+  }
+
+  .footer .container {
+    padding: 0px 40px;
+  }
+}
+@media screen and (max-width: 426px) {
+  #product {
+    height: 640px;
+  }
+  #product .container .product-wrapper .left .left-wrapper span {
+    height: 2px;
+  }
+  #product .container .product-wrapper .left .left-wrapper p {
+    font-size: 10px;
+  }
+  #product .container .product-wrapper .right .none-mobile {
+    display: none;
+  }
+  #product .container .product-wrapper .right .none-desktop {
+    font-size: 24px;
+    display: block;
+    line-height: 40px;
+  }
+  #product .container .product-wrapper .right p {
+    display: none;
+  }
+  #product .container .action p {
+    font-size: 16px;
+    margin-right: 19px;
+  }
+  #product .container .action p span {
+    font-size: 12px;
+  }
+  #product .container .action .action-right,
+#product .container .action .action-left {
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+  }
+  #product .container .action .action-right img,
+#product .container .action .action-left img {
+    width: 8px;
+    height: 8px;
+  }
+
+  #our-product .container .title h1 {
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+  #our-product .container .content .card img {
+    height: 331px;
+  }
+  #our-product .container .content .card h1 {
+    font-size: 20px;
+    line-height: 24.38px;
+  }
+  #our-product .container .content .card p {
+    line-height: 17.07px;
+    font-size: 14px;
+  }
+
+  #subcribe .container .subcribe-wrapper .title h1 {
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+  #subcribe .container .subcribe-wrapper .content p {
+    font-size: 13px;
+    font-family: "Maven Pro";
+  }
+  #subcribe .container .subcribe-wrapper form {
+    display: block;
+  }
+  #subcribe .container .subcribe-wrapper form input {
+    width: 100%;
+    font-size: 13px;
+  }
+  #subcribe .container .subcribe-wrapper form a {
+    margin-top: 34px;
+    margin-left: 0px;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+  }
+
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .foo-left h1 {
+    font-size: 20px;
+  }
+  .footer .container .row .foo-left p {
+    font-family: "Maven Pro";
+    font-size: 13px;
+  }
+  .footer .container .row .foo-right {
+    margin-top: 84px;
+    justify-content: flex-start;
+  }
+  .footer .container .row .foo-right .right-wrapper .sosmed {
+    justify-content: flex-start;
+  }
+  .footer .container .row .foo-right .right-wrapper .copyright p {
+    font-size: 13px;
+    font-family: "Maven Pro";
   }
 }/*# sourceMappingURL=product.css.map */
