@@ -311,8 +311,35 @@ $secondary : white;
     }
   }
   .footer {
-    .container {
+    .container{
       padding: 0px 40px;
+      .row {
+        display: block;
+        .foo-left {
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-family: 'Maven Pro';
+            font-size: 13px;
+          }
+        }
+        .foo-right {
+          margin-top: 84px;
+          justify-content: flex-start;
+          .right-wrapper {
+            .sosmed {
+              justify-content: flex-start;
+            }
+            .copyright {
+              p {
+                font-size: 13px;
+                font-family: 'Maven Pro';
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

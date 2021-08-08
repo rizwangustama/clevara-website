@@ -285,6 +285,27 @@
   .footer .container {
     padding: 0px 40px;
   }
+  .footer .container .row {
+    display: block;
+  }
+  .footer .container .row .foo-left h1 {
+    font-size: 20px;
+  }
+  .footer .container .row .foo-left p {
+    font-family: "Maven Pro";
+    font-size: 13px;
+  }
+  .footer .container .row .foo-right {
+    margin-top: 84px;
+    justify-content: flex-start;
+  }
+  .footer .container .row .foo-right .right-wrapper .sosmed {
+    justify-content: flex-start;
+  }
+  .footer .container .row .foo-right .right-wrapper .copyright p {
+    font-size: 13px;
+    font-family: "Maven Pro";
+  }
 }
 @media screen and (max-width: 426px) {
   #product {
