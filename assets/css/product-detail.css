@@ -1,0 +1,407 @@
+#intro {
+  height: 900px;
+  width: 100%;
+  overflow: hidden;
+  padding: 363px 0px;
+  background: radial-gradient(69.48% 177.87% at 69.48% 59.89%, #343434 0%, #000000 100%);
+}
+#intro .container img {
+  position: absolute;
+  width: 700px;
+  right: 0px;
+  top: 200px;
+  z-index: 1;
+}
+#intro .container .intro-wrapper {
+  display: flex;
+}
+#intro .container .intro-wrapper .left {
+  padding-top: 10px;
+}
+#intro .container .intro-wrapper .left .left-wrapper {
+  display: flex;
+  align-items: center;
+}
+#intro .container .intro-wrapper .left .left-wrapper span {
+  width: 18px;
+  height: 2px;
+  background-color: #DCBF01;
+  margin-right: 8px;
+}
+#intro .container .intro-wrapper .left .left-wrapper p {
+  color: white;
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+#intro .container .intro-wrapper .right {
+  padding-left: 45px;
+}
+#intro .container .intro-wrapper .right h1 {
+  color: white;
+  font-size: 61px;
+  font-family: "Montserrat";
+}
+#intro .container .no-dekstop {
+  display: none;
+}
+
+#feature {
+  background-color: black;
+  padding: 183px 0;
+}
+#feature .container .feature-wrapper {
+  width: 100%;
+  display: grid;
+  height: 535px;
+  grid-template-columns: 70px 1fr 446px;
+  grid-template-rows: 290px 110px 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  grid-template-areas: ". judul gambar" "garis isi gambar" ". action gambar";
+}
+#feature .container .feature-wrapper .garis {
+  grid-area: garis;
+  justify-self: end;
+  padding-top: 15px;
+}
+#feature .container .feature-wrapper .garis span {
+  width: 18px;
+  display: flex;
+  height: 3px;
+  background-color: #DCBF01;
+}
+#feature .container .feature-wrapper .judul {
+  grid-area: judul;
+  align-self: end;
+}
+#feature .container .feature-wrapper .judul h1 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 48px;
+  line-height: 58.51px;
+  padding-bottom: 78px;
+}
+#feature .container .feature-wrapper .isi {
+  grid-area: isi;
+}
+#feature .container .feature-wrapper .isi h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+#feature .container .feature-wrapper .isi p {
+  color: white;
+  font-family: "Maven Pro";
+  font-size: 17px;
+}
+#feature .container .feature-wrapper .action {
+  grid-area: action;
+  padding-top: 20px;
+}
+#feature .container .feature-wrapper .action .action-wrapper {
+  display: flex;
+  align-items: center;
+}
+#feature .container .feature-wrapper .action .action-wrapper .button1, #feature .container .feature-wrapper .action .action-wrapper .button2 {
+  background-color: transparent;
+  border: 1.5px solid white;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 26px;
+}
+#feature .container .feature-wrapper .action .action-wrapper .button1 img, #feature .container .feature-wrapper .action .action-wrapper .button2 img {
+  width: 14px;
+  height: 14px;
+}
+#feature .container .feature-wrapper .action .action-wrapper .button1 {
+  margin-right: 28px;
+  opacity: 0.5;
+}
+#feature .container .feature-wrapper .action .action-wrapper p {
+  margin: 0;
+  color: white;
+  margin-right: 46px;
+  font-size: 24px;
+}
+#feature .container .feature-wrapper .action .action-wrapper p span {
+  font-size: 14px;
+}
+#feature .container .feature-wrapper .gambar {
+  background-color: aqua;
+  grid-area: gambar;
+}
+#feature .container .feature-wrapper .gambar img {
+  width: 100%;
+  height: 100%;
+}
+
+#power {
+  background-color: #1F1F1F;
+  padding: 229px 0;
+}
+#power .container .power-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 93px;
+       column-gap: 93px;
+}
+#power .container .power-wrapper .left img {
+  max-width: 100%;
+}
+#power .container .power-wrapper .right .title h1 {
+  color: white;
+  font-size: 48px;
+  font-family: "Montserrat";
+  margin-bottom: 24px;
+}
+#power .container .power-wrapper .right .content {
+  margin-bottom: 24px;
+}
+#power .container .power-wrapper .right .content p {
+  color: white;
+  font-size: 17px;
+  font-family: "Maven Pro";
+  line-height: 32px;
+}
+#power .container .power-wrapper .right .preview {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+#power .container .power-wrapper .right .preview span {
+  height: 2px;
+  width: 65px;
+  background-color: #DCBF01;
+  margin-right: 32px;
+}
+#power .container .power-wrapper .right .preview p {
+  color: white;
+  margin: 0;
+}
+#power .container .power-wrapper .right .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 135px;
+  -moz-column-gap: 66px;
+       column-gap: 66px;
+}
+#power .container .power-wrapper .right .box .box1 {
+  padding: 17px;
+  background-color: #343434;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#power .container .power-wrapper .right .box .box1 img {
+  width: 100%;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+#pricing {
+  padding: 104px 0px;
+  background-color: black;
+}
+#pricing .container .title {
+  padding-left: 100px;
+  margin-bottom: 79px;
+}
+#pricing .container .title h1 {
+  color: white;
+  font-size: 48px;
+  font-family: "Montserrat";
+}
+#pricing .container .pricing-wrapper {
+  display: flex;
+  justify-content: center;
+}
+#pricing .container .pricing-wrapper .wrapper {
+  width: 730px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#pricing .container .pricing-wrapper .wrapper .left {
+  padding: 43px 39px 56px 39px;
+  border: 5px solid #343434;
+}
+#pricing .container .pricing-wrapper .wrapper .left h1, #pricing .container .pricing-wrapper .wrapper .left h2, #pricing .container .pricing-wrapper .wrapper .left p {
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+#pricing .container .pricing-wrapper .wrapper .left h1 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-bottom: 92px;
+}
+#pricing .container .pricing-wrapper .wrapper .left h2 {
+  font-size: 34px;
+  font-family: "Montserrat";
+  margin-bottom: 61px;
+}
+#pricing .container .pricing-wrapper .wrapper .left h2 span {
+  font-size: 24px;
+}
+#pricing .container .pricing-wrapper .wrapper .left p {
+  font-family: "Maven Pro";
+}
+#pricing .container .pricing-wrapper .wrapper .right:before {
+  content: "Save 10%";
+  position: absolute;
+  background-color: #DCBF01;
+  margin-top: -66px;
+  width: 265px;
+  padding: 7px 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+#pricing .container .pricing-wrapper .wrapper .right {
+  padding: 43px 39px 56px 39px;
+  border: 5px solid #343434;
+}
+#pricing .container .pricing-wrapper .wrapper .right h1, #pricing .container .pricing-wrapper .wrapper .right h2, #pricing .container .pricing-wrapper .wrapper .right p, #pricing .container .pricing-wrapper .wrapper .right h3 {
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+#pricing .container .pricing-wrapper .wrapper .right h1 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+#pricing .container .pricing-wrapper .wrapper .right h3 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+#pricing .container .pricing-wrapper .wrapper .right h3 span {
+  font-size: 20px;
+}
+#pricing .container .pricing-wrapper .wrapper .right h2 {
+  font-size: 34px;
+  font-family: "Montserrat";
+  margin-bottom: 61px;
+}
+#pricing .container .pricing-wrapper .wrapper .right h2 span {
+  font-size: 24px;
+}
+#pricing .container .pricing-wrapper .wrapper .right p {
+  font-family: "Maven Pro";
+}
+
+#subcribe {
+  padding: 57px 0;
+  background: #1C1C1C;
+}
+#subcribe .container .subcribe-wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+#subcribe .container .subcribe-wrapper .title h1 {
+  text-align: center;
+  color: white;
+  font-size: 34px;
+  font-family: "Montserrat";
+}
+#subcribe .container .subcribe-wrapper .content p {
+  font-size: 17px;
+  margin-top: 16px;
+  font-family: "Maven Pro";
+  color: white;
+  text-align: center;
+  line-height: 32px;
+}
+#subcribe .container .subcribe-wrapper form {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+#subcribe .container .subcribe-wrapper form input {
+  width: 425px;
+  background: transparent;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid white;
+  font-family: "Maven Pro";
+}
+#subcribe .container .subcribe-wrapper form a {
+  text-decoration: none;
+  display: flex;
+  color: #DCBF01;
+  margin-left: 59px;
+  align-items: center;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+#subcribe .container .subcribe-wrapper form a span {
+  margin-left: 13px;
+  display: flex;
+}
+
+.footer {
+  background-color: black;
+  padding: 118px 0;
+}
+.footer .container .row {
+  align-content: flex-end;
+}
+.footer .container .row .foo-left h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.footer .container .row .foo-left p {
+  color: white;
+  font-family: "Montserrat";
+  line-height: 17px;
+  margin-bottom: 23px;
+  font-size: 14px;
+}
+.footer .container .row .foo-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.footer .container .row .foo-right .right-wrapper .sosmed {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .container .row .foo-right .right-wrapper .sosmed .icon {
+  margin-right: 18px;
+  margin-bottom: 23px;
+}
+.footer .container .row .foo-right .right-wrapper .copyright p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1152px) {
+  #intro .container img {
+    max-width: 500px;
+  }
+
+  #feature .container .feature-wrapper {
+    grid-template-rows: 290px 150px 1fr;
+  }
+  #feature .container .feature-wrapper .isi p br {
+    display: none;
+  }
+
+  #power .container .power-wrapper .right .box {
+    grid-template-rows: 110px;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+}/*# sourceMappingURL=product-detail.css.map */

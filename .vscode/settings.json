@@ -1,0 +1,4 @@
+{
+  "autoprefixer.formatOnSave": true,
+  "blade.format.enable": true
+}
