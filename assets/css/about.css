@@ -1,0 +1,313 @@
+#our {
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 400px;
+}
+#our .container .our-wrapper {
+  display: flex;
+}
+#our .container .our-wrapper .left {
+  width: 22%;
+}
+#our .container .our-wrapper .left .left-wrapper {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+#our .container .our-wrapper .left .left-wrapper span {
+  height: 3px;
+  width: 18px;
+  background-color: #DCBF01;
+  margin-right: 15px;
+}
+#our .container .our-wrapper .left .left-wrapper p {
+  margin: 0;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+#our .container .our-wrapper .right {
+  width: 78%;
+}
+#our .container .our-wrapper .right .right-wrapper {
+  padding-right: 200px;
+}
+#our .container .our-wrapper .right .right-wrapper .title h1 {
+  color: white;
+  font-size: 72px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+#our .action {
+  display: flex;
+}
+#our .action p {
+  margin-right: 46px;
+  font-size: 24px;
+  color: white;
+  font-family: "Montserrat";
+}
+#our .action p span {
+  font-size: 14px;
+  color: white;
+}
+#our .action .action-left {
+  background: transparent;
+  background: transparent;
+  border-radius: 100px;
+  border: 1.5px solid #FFFFFF;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  opacity: 0.5;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32px;
+}
+#our .action .action-left img {
+  width: 16px;
+  height: 16px;
+}
+#our .action .action-right {
+  background: transparent;
+  border-radius: 100px;
+  border: 1.5px solid #FFFFFF;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#our .action .action-right img {
+  width: 16px;
+  height: 16px;
+}
+
+#team {
+  background: #1C1C1C;
+  padding: 179px;
+}
+#team .container .content .kutif {
+  color: #DCBF01;
+}
+#team .container .content p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 40px;
+}
+#team .container .buttom {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+#team .container .buttom span {
+  width: 65px;
+  height: 2px;
+  background: #DCBF01;
+  margin-right: 32px;
+}
+#team .container .buttom p {
+  margin: 0;
+  color: white;
+  font-family: "Montserrat";
+}
+
+#what {
+  height: 900px;
+  padding: 184px 179px;
+  background: #000000;
+}
+#what .container .title {
+  margin-bottom: 100px;
+}
+#what .container .title h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 48px;
+}
+#what .container .what-wrapper .box {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-bottom: 40px;
+  padding-right: 200px;
+  grid-template-areas: "a c" ". b";
+}
+#what .container .what-wrapper .box .items-a {
+  grid-area: a;
+  display: flex;
+  align-items: center;
+}
+#what .container .what-wrapper .box .items-a span {
+  height: 2px;
+  background: #DCBF01;
+  width: 100%;
+}
+#what .container .what-wrapper .box .items-b {
+  grid-area: b;
+}
+#what .container .what-wrapper .box .items-b p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 17px;
+  line-height: 32px;
+}
+#what .container .what-wrapper .box .items-c {
+  grid-area: c;
+}
+#what .container .what-wrapper .box .items-c h3 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 24px;
+}
+
+#partnership {
+  background: #1C1C1C;
+  padding: 101px 146px 179px 179px;
+}
+#partnership .container .content img {
+  max-width: 100%;
+}
+#partnership .container .content .title {
+  margin: 39px 0;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: normal;
+}
+#partnership .container .content .title h1 {
+  color: white;
+}
+#partnership .container .content .text p {
+  color: white;
+  font-family: "Maven Pro";
+  font-size: 17px;
+  line-height: 32px;
+  text-align: justify;
+}
+
+#download {
+  padding: 95px 0;
+  background: #1C1C1C;
+}
+#download .container .content h1 {
+  font-family: "Montserrat";
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+#download .container .content h4 {
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#download .container .content h4 a {
+  text-decoration: none;
+  color: #DCBF01;
+  font-family: "Poppins";
+  margin-right: 11px;
+}
+
+#inter {
+  padding: 175px 150px;
+  background: #1C1C1C;
+}
+#inter .container .inter-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+#inter .container .inter-wrapper .left h1 {
+  text-align: right;
+  font-size: 72px;
+  font-weight: normal;
+  color: white;
+  font-family: "Montserrat";
+}
+#inter .container .inter-wrapper .right {
+  display: grid;
+  grid-template-columns: 65px 1fr;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#inter .container .inter-wrapper .right .items-a {
+  display: flex;
+  margin-top: 50px;
+}
+#inter .container .inter-wrapper .right .items-a span {
+  display: flex;
+  background: #DCBF01;
+  height: 2px;
+  width: 100%;
+}
+#inter .container .inter-wrapper .right .items-b .content p {
+  font-family: "Maven Pro";
+  font-size: 17px;
+  color: white;
+  line-height: 32px;
+  text-align: justify;
+}
+#inter .container .inter-wrapper .right .items-b .link {
+  margin-top: 77px;
+}
+#inter .container .inter-wrapper .right .items-b .link ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+#inter .container .inter-wrapper .right .items-b .link ul li {
+  display: flex;
+  align-items: center;
+}
+#inter .container .inter-wrapper .right .items-b .link ul li a {
+  text-decoration: none;
+  color: #DCBF01;
+  margin-right: 14px;
+}
+
+.footer {
+  background-color: black;
+  padding: 118px 0;
+}
+.footer .container .row {
+  align-content: flex-end;
+}
+.footer .container .row .foo-left h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+.footer .container .row .foo-left p {
+  color: white;
+  font-family: "Montserrat";
+  line-height: 17px;
+  margin-bottom: 23px;
+  font-size: 14px;
+}
+.footer .container .row .foo-right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.footer .container .row .foo-right .right-wrapper .sosmed {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer .container .row .foo-right .right-wrapper .sosmed .icon {
+  margin-right: 18px;
+  margin-bottom: 23px;
+}
+.footer .container .row .foo-right .right-wrapper .copyright p {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 14px;
+}/*# sourceMappingURL=about.css.map */
